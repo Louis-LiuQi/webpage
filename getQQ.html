@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+	<meta http-equiv="refresh" content="0; url=tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1686762996">
+	<title>添加QQ好友</title>
+	<style>
+	*{
+		margin:0;
+		padding:0;
+	}
+		body{
+			width: 100%;
+			height:100%;
+		}
+		html{
+			width: 100%;
+			height:100%;
+		}
+		.gochat{
+			display: none;
+		}
+		a{
+			text-decoration: none;
+		}
+		@media screen and (max-width: 1024px){
+			.gochat{
+				display: block;
+				width: 100%;
+				height: 100%;
+				background: rgba(36,36,36,0.6);
+				display: flex;
+			}
+			.gochat a{
+				display: flex;
+				margin:auto;
+				background: #007ab9;
+				border-radius: 10% / 40%;
+				overflow: hidden;
+				width:70%;
+				height: 15%;
+			}
+			.gochat a img{
+				width: 50%;
+				display: block;
+				margin: auto;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="gochat">
+		<!-- <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1686762996"">添加</a> -->
+		<a href="mqqwpa://im/chat?chat_type=wpa&uin=1686762996&version=1&src_type=web&web_src=oicqzone.com">
+		<img src="http://i1.piimg.com/592648/a649a53ede91d530.png" alt=""></a>
+	</div>
+	
+</body>
+</html>
